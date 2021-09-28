@@ -9,7 +9,7 @@ var mobAo = [{ key : 'INV', fun : "inv(this)"},{ key : 'DEG', fun : "angle(this)
 var mobAoINV = [{ key : 'INV', fun : "inv(this)"},{ key : 'DEG', fun : "angle(this)"},{key : 'abs', fun : "print('abs(')"},{ key : 'asin', fun : "print('asin(')"}, { key : 'acos', fun : "print('acos(')"}, { key : 'atan', fun : "print('atan(')"}, { key : 'x<sup>2</sup>', fun : "print('^2')"}, {key : '^', fun : "print('^')"}, {key : '10<sup>x</sup>', fun : "print('10^(')"}, {key : 'e<sup>x</sup>', fun : "print('exp(')"}, {key : 'π', fun : "print('π')"}, {key : 'e', fun : "print('exp(1)')"},{key : 'φ', fun : "print('φ')"}, { key : '(', fun : "print('(')"},{ key : ')', fun : "print(')')"}]
 
 var mapper = [{key : '÷', val : '/'}, {key : 'log', val : 'Math.log10'}, {key : 'ln', val : 'Math.log'}, {key : 'abs', val : 'Math.abs'}, {key : '^', val : '**'}, {key : '√', val : 'Math.sqrt'}, {key : 'round', val : 'Math.round'}, {key : 'π', val : 'Math.PI'}, {key : 'φ', val : '((1+Math.sqrt(5))/2)'},{key : 'exp', val : 'Math.exp'}]
-//document.addEventListener('contextmenu', event => event.preventDefault());
+document.addEventListener('contextmenu', event => event.preventDefault());
 var ang = 'DEG';
 var Err = false;
 var op = null;
